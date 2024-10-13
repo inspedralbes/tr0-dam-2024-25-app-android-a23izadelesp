@@ -1,0 +1,41 @@
+<resources>
+    <style name="Theme.QuizzApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/text_white</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/card_background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="materialButtonStyle">@style/Widget.QuizzApp.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.QuizzApp.CardView</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+
+    <style name="Widget.QuizzApp.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/text_white</item>
+        <item name="backgroundTint">@color/button_normal</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <style name="Widget.QuizzApp.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <style name="TextAppearance.QuizzApp.Title" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.QuizzApp.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+</resources>
